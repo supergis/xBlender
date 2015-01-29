@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Object files
 *.o
 *.ko
@@ -27,3 +28,39 @@
 *.i*86
 *.x86_64
 *.hex
+=======
+# generic files to ignore
+.*
+
+# python temp paths
+__pycache__/
+*.py[cod]
+
+# editors
+*~
+*.swp
+*.swo
+*#
+
+# QtCreator
+CMakeLists.txt.user
+
+# ms-windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# commonly used paths in blender
+/blender.bin
+/user-config.py
+
+# local patches
+/*.patch
+/*.diff
+
+# in-source doc-gen
+/doc/doxygen/html/
+/doc/python_api/sphinx-in-tmp/
+/doc/python_api/sphinx-in/
+/doc/python_api/sphinx-out/
+>>>>>>> upstream/master
